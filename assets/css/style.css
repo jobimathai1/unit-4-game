@@ -1,0 +1,47 @@
+div{
+    background-color: white;
+    margin: 10px;
+    width:25%
+}
+
+div{
+    border: solid 2px antiquewhite;
+    padding: 10px
+}
+
+h1, h2, span{
+    font-weight: bold;
+    text-align: center
+}
+
+h1{
+    font-size: 30pt;
+}
+
+div.header, div.crystals{
+    background-color: grey;
+}
+
+div.header, div.howToPlay{
+    widows: 50%;
+}
+
+.numToMatch, .winLoss{
+    float: left;
+    width: 15%;
+    height: 60px;
+}
+
+.userScore{
+    width: 15%;
+    height: 60px;
+}
+
+.crystals{
+    clear: both;
+}
+
+.crystalImg{
+    height: 60px;
+    margin: 10px;
+}
