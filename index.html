@@ -2,58 +2,56 @@
 <html lang="en">
 
 <head>
-    <title>Crystal Collector Game</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Crystal Collector Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="header">
-        <h1>Crystal Collector Game</h1>
-    </div>
+  <div class="header">
+    <h1>Crystal Collector Game</h1>
+  </div>
 
-    <div class="howToPlay">
-        <p>You will be given a random number at the start of the game. </p>
-        </br>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
-            total score</p>
-        </br>
-        <p>You win the game by matching your total score to random number, you lose the game if your total score goes
-            above the random number</p>
-        </br>
-        <p>The value of each crystal is hidden from you until you click on it</p>
-        </br>
-        <p>Each time when thes starts, the game will change the values of each crystal</p>
-    </div>
+  <!--Instructions on how to play the game-->
 
-    <div class="numToMatch">
-        <h2>Number to Match:<span id="randomNum"></span>
+  <div class="howToPlay">
+    <p>You will be given a random number at the start of the game. </p>
+    </br>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</p>
+    </br>
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number</p>
+    </br>
+    <p>The value of each crystal is hidden from you until you click on it</p>
+    </br>
+    <p>Each time when thes starts, the game will change the values of each crystal</p>
+  </div>
+
+  <div class="numToMatch">
+    <h2>Number to Match:<span id="randomNum"></span>
         </h2>
-    </div>
+  </div>
 
-    <div class="winLoss">
-        <h2>Wins:<span id="numWins"></span>
+  <div class="winLoss">
+    <h2>Wins:<span id="numWins"></span>
         <br>
         Losses:<span id="numLoss"></span>
         </h2>
-    </div>
+  </div>
 
-    <div class="crystals">
-        <img src="assets/images/emerald.jpg" class=crystalImg id="one" alt="green crystal">
-        <img src="assets/images/blue.jpg" class=crystalImg id="two" alt="blue crystal">
-        <img src="assets/images/red.jpg" class=crystalImg id="three" alt="red crystal">
-        <img src="assets/images/yellow.jpg" class=crystalImg id="four" alt="yellow crystal">
-    </div>
+  <!--displaying the crystals on the page-->
+  <div class="crystals">
+    <img src="assets/images/emerald.jpg" class=crystalImg id="one" alt="green crystal">
+    <img src="assets/images/blue.jpg" class=crystalImg id="two" alt="blue crystal">
+    <img src="assets/images/red.jpg" class=crystalImg id="three" alt="red crystal">
+    <img src="assets/images/yellow.jpg" class=crystalImg id="four" alt="yellow crystal">
+  </div>
 
-    <div class="userScore">
-        <h2>Your total score is:<span id="finalScore"></span></h2>
-    </div>
+  <div class="userScore">
+    <h2>Your total score is:<span id="finalScore"></span></h2>
+  </div>
 
-    <script type="text/javascript"
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/javascript/javascript.js"></script>
 
 </body>
 
